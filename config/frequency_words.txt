@@ -25,9 +25,27 @@
 [GLOBAL_FILTER]
 # 过滤标题党
 震惊
-
-
-
+赚疯了
+赚翻了
+免费送
+白送
+暴利
+一夜暴富
+内部消息
+内幕
+/稳赚|躺赚|轻松赚/
+惊呆
+惊呆了
+轰动
+彻底改变
+彻底颠覆
+绝对不能
+绝对要看
+速看
+马上删
+即将删除
+一定要看
+必须知道
 # ───────────────────────────────────────────────────────────────
 #                        词组定义区
 # ───────────────────────────────────────────────────────────────
@@ -143,109 +161,262 @@
 # ───────────────────────────────────────────────────────────────
 
 [WORD_GROUPS]
+[WORD_GROUPS]
 
 # ═══════════════════════════════════════════════════════════════
-#                         企业与品牌
+#                         稀有金属与贵金属
 # ═══════════════════════════════════════════════════════════════
 
-/胖东来|于东来/ => 胖东来
+[稀有金属]
+锂
+钴
+镍
+稀土
+钨
+钼
+钽
+铌
+锗
+/锂矿|钴矿|镍矿|稀土矿/
+# 国际巨头
+/\bAlbemarle\b/i => 雅保
+/\bSQM\b/ => 智利矿业化工
+/\bLivent\b/ => Livent
+/\bVale\b/ => 淡水河谷
+/\bGlencore\b/ => 嘉能可
+/\bFreeport-McMoRan\b/ => 自由港
+/\bMP Materials\b/ => MP Materials
+Lynas Rare Earths => 莱纳斯稀土
+# 国内龙头
+天齐锂业
+赣锋锂业
+华友钴业
+洛阳钼业
 
-/DeepSeek|梁文锋/i => DeepSeek
+[贵金属]
+黄金
+白银
+铂金
+钯金
+# 国际巨头
+/\bNewmont\b/i => 纽蒙特
+/\bBarrick Gold\b/ => 巴里克黄金
+/\bAngloGold Ashanti\b/ => 安格鲁阿散蒂
+/\bPolyus\b/ => 极地黄金
+/\bWheaton Precious Metals\b/ => 惠顿贵金属
+# 国内龙头
+山东黄金
+紫金矿业
 
-/华为|鸿蒙|HarmonyOS|任正非/i => 华为
+# ═══════════════════════════════════════════════════════════════
+#                         电池与储能
+# ═══════════════════════════════════════════════════════════════
 
-/比亚迪|王传福|byd/i => 比亚迪
+[电池产业]
+动力电池
+储能电池
+锂电池
+固态电池
+# 国际巨头
+/\bPanasonic\b/i => 松下
+/\bLG\s?Energy\s?Solution\b/i => LG新能源
+/\bSK\s?On\b/i => SK On
+/\bSamsung\s?SDI\b/i => 三星SDI
+/\bQuantumScape\b/ => QuantumScape
+/\bSolid\s?Power\b/ => Solid Power
+# 国内龙头
+宁德时代
+比亚迪
+国轩高科
 
-/大疆|\bDJI\b/i => 大疆
+[储能系统]
+储能系统
+储能电站
+# 国际企业
+/\bTesla\s?Energy\b/i => 特斯拉能源
+/\bFluence\b/ => Fluence
+/\bSungrow\b/i => 阳光电源（国际）
+# 国内企业
+阳光电源
+华为数字能源
 
-/宇树|王兴兴|Unitree/ => 宇树机器人
+# ═══════════════════════════════════════════════════════════════
+#                         AI与算力
+# ═══════════════════════════════════════════════════════════════
 
-/智元|灵犀|稚晖君|彭志辉|AgiBot/ => 智元机器人
-/众擎|EngineAI|赵同阳/ => 众擎机器人
-
-/黑神话|冯骥/ => 黑神话悟空
-
-/影之刃零|梁其伟/ => 影之刃零
-
-/三体|流浪地球|刘慈欣|郭帆/ => 三体/流浪地球
-
-申奥
-
-/京东|刘强东/ => 京东
-
-/字节|bytedance|张一鸣/i => 字节跳动
-
-/qwen|minimax|glm/ => 国产开源模型
-
-/特斯拉|马斯克/ => 特斯拉
-
-/英伟达|\bNVIDIA\b|黄仁勋/i => 英伟达
+[AI芯片与硬件]
+/\bNVIDIA\b/i => 英伟达
 /\bAMD\b/i => AMD
+/\bIntel\b/i => 英特尔
+/\bGoogle\s?TPU\b/i => 谷歌TPU
+/\bAWS\s?Trainium\b/i => AWS Trainium
+/\bCerebras\b/ => Cerebras
+寒武纪
+华为昇腾
+海光信息
 
-/微软|\bMicrosoft\b/i => 微软
-/谷歌|\bgoogle\b|\bgemini\b|\bdeepMind\b/i => 谷歌
-/\biphone\b|\bipad\b|\bmac\b|\bios\b/i => 苹果
+[AI模型与云]
+/\bOpenAI\b/i => OpenAI
+/\bAnthropic\b/ => Anthropic
+/\bGoogle\s?Gemini\b/i => 谷歌Gemini
+/\bMicrosoft\s?Azure\b/i => 微软Azure
+/\bAWS\b/ => 亚马逊云
+/\bMeta\s?AI\b/i => Meta AI
+百度文心
+阿里通义
+腾讯混元
 
-/\bchatgpt\b|\bopenai\b|\bsora\b/i => OpenAI
-/\bclaude\b|anthropic/i => Claude
-
-
-# ═══════════════════════════════════════════════════════════════
-#                         国家与地区
-# ═══════════════════════════════════════════════════════════════
-
-[中国]
-国产
-中国
-
-[东亚]
-日本
-朝鲜
-韩国
-
-[北美]
-美国
-加拿大
-
-[西欧]
-法国
-英国
-
-/俄罗斯|俄国/ => 俄罗斯
-
-印度
-
+[算力基础设施]
+数据中心
+AI服务器
+# 国际
+/\bDell\s?Technologies\b/i => 戴尔
+/\bHPE\b/ => 慧与
+/\bSuper\s?Micro\b/i => 超微电脑
+/\bEquinix\b/ => Equinix
+/\bDigital\s?Realty\b/ => Digital Realty
+# 国内
+浪潮信息
+中科曙光
 
 # ═══════════════════════════════════════════════════════════════
-#                         科技领域
+#                         半导体与芯片
 # ═══════════════════════════════════════════════════════════════
 
-[AI 相关]
-/(?<![a-zA-Z])ai(?![a-zA-Z])/i
-人工智能
+[半导体设计]
+/\bNVIDIA\b/i => 英伟达
+/\bAMD\b/i => AMD
+/\bIntel\b/i => 英特尔
+/\bQualcomm\b/i => 高通
+/\bBroadcom\b/i => 博通
+/\bARM\s?Holdings\b/i => ARM
+/\bApple\s?Silicon\b/i => 苹果芯片
+华为海思
+紫光展锐
 
-[芯片]
-芯片
-光刻机
-半导体
+[晶圆制造]
+/\bTSMC\b|台积电/ => 台积电
+/\bSamsung\s?Foundry\b/i => 三星代工
+/\bGlobalFoundries\b/ => 格芯
+/\bUMC\b/ => 联电
+/\bSMIC\b/ => 中芯国际
+华虹半导体
 
-/水电|雅鲁藏布江/ => 水电
-/光伏|太阳能/ => 光伏
-核能
-能源
+[半导体设备]
+/\bASML\b/ => ASML
+/\bApplied\s?Materials\b/i => 应用材料
+/\bLam\s?Research\b/i => 泛林集团
+/\bTokyo\s?Electron\b/i => 东京电子
+/\bKLA\b/ => KLA
+北方华创
+中微公司
 
-/自动驾驶|无人驾驶|智驾/ => 自动驾驶
+# ═══════════════════════════════════════════════════════════════
+#                         机器人
+# ═══════════════════════════════════════════════════════════════
 
-机器人
-/机械狗|四足/ => 机器狗
-具身智能
+[工业机器人]
+/\bFANUC\b/i => 发那科
+/\bABB\b/ => ABB
+/\bYaskawa\b/i => 安川电机
+/\bKUKA\b/i => 库卡
+/\bBoston\s?Dynamics\b/i => 波士顿动力
+/\bTesla\s?Optimus\b/i => 特斯拉Optimus
+埃斯顿
+新松机器人
 
-/月球|登月|火星|宇宙|飞船|航天|空间站|卫星/ => 航天
+[服务与人形机器人]
+/\bBoston\s?Dynamics\b/i => 波士顿动力
+/\bTesla\s?Optimus\b/i => 特斯拉Optimus
+/\bFigure\s?AI\b/i => Figure AI
+/\bAgility\s?Robotics\b/i => Agility Robotics
+/\bSoftBank\s?Robotics\b/i => 软银机器人
+优必选
+智元机器人
+宇树科技
 
-# 前沿科技
-量子
-脑机
-基因
+# ═══════════════════════════════════════════════════════════════
+#                         航空航天
+# ═══════════════════════════════════════════════════════════════
 
+[商业航天]
+/\bSpaceX\b/i => SpaceX
+/\bBlue\s?Origin\b/i => 蓝色起源
+/\bVirgin\s?Galactic\b/i => 维珍银河
+/\bRocket\s?Lab\b/i => Rocket Lab
+/\bRelativity\s?Space\b/i => Relativity Space
+星际荣耀
+蓝箭航天
+星河动力
+
+[航空制造]
+/\bBoeing\b/i => 波音
+/\bAirbus\b/i => 空客
+/\bLockheed\s?Martin\b/i => 洛克希德马丁
+/\bNorthrop\s?Grumman\b/i => 诺斯罗普格鲁曼
+/\bRaytheon\s?Technologies\b/i => 雷神技术
+中国商飞
+C919
+ARJ21
+
+[卫星与导航]
+/\bSpaceX\s?Starlink\b/i => SpaceX星链
+/\bOneWeb\b/ => OneWeb
+/\bIridium\b/ => 铱星
+/\bGPS\b/ => GPS
+北斗导航
+中国卫星
+
+# ═══════════════════════════════════════════════════════════════
+#                         电力与能源科技
+# ═══════════════════════════════════════════════════════════════
+
+[电网与电力设备]
+/\bSiemens\s?Energy\b/i => 西门子能源
+/\bGE\s?Vernova\b/i => GE Vernova
+/\bABB\b/ => ABB
+/\bSchneider\s?Electric\b/i => 施耐德电气
+国电南瑞
+许继电气
+
+[新能源科技]
+/\bFirst\s?Solar\b/i => First Solar
+/\bEnphase\s?Energy\b/i => Enphase Energy
+/\bNextEra\s?Energy\b/i => NextEra Energy
+/\bOrsted\b/ => 沃旭能源
+隆基绿能
+通威股份
+晶科能源
+
+# ═══════════════════════════════════════════════════════════════
+#                         综合科技巨头
+# ═══════════════════════════════════════════════════════════════
+
+[美国科技巨头]
+/\bMicrosoft\b/i => 微软
+/\bApple\b/i => 苹果
+/\bGoogle\b|Alphabet/i => 谷歌
+/\bAmazon\b/i => 亚马逊
+/\bMeta\b|Facebook/i => Meta
+/\bTesla\b/i => 特斯拉
+
+[中国科技巨头]
+华为
+比亚迪
+宁德时代
+阿里巴巴
+腾讯
+百度
+字节跳动
+小米
+京东
+
+[其他国际巨头]
+/\bSamsung\b/i => 三星
+/\bSony\b/i => 索尼
+/\bToyota\b/i => 丰田
+/\bASML\b/ => ASML
+/\bTSMC\b/ => 台积电
+/\bNVIDIA\b/i => 英伟达
 # 产业政策
 生产力
