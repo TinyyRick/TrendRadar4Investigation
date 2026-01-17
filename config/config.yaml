@@ -249,7 +249,7 @@ storage:
   # ⚠️ 注意：下面的 remote 必须缩进两个空格，和上面的 local 对齐
   remote:
     retention_days: 0
-    endpoint_url: "https://dd1981a636622bd8108331a6289657d3.r2.cloudflarestorage.com"                  # 服务端点
+    endpoint_url: ""                  # 服务端点
                                       # Cloudflare R2: https://<account_id>.r2.cloudflarestorage.com
                                       # 阿里云 OSS: https://oss-cn-hangzhou.aliyuncs.com
                                       # 腾讯云 COS: https://cos.ap-guangzhou.myqcloud.com
