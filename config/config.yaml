@@ -249,11 +249,14 @@ storage:
   # ⚠️ 注意：下面的 remote 必须缩进两个空格，和上面的 local 对齐
   remote:
     retention_days: 0
-    bucket_name: ""          # 对应 Secret: R2_BUCKET_NAME
-    endpoint_url: ""            # 对应 Secret: R2_ENDPOINT
-    access_key_id: ""      # 对应 Secret: R2_ACCESS_KEY_ID
-    secret_access_key: "" # 对应 Secret: R2_SECRET_ACCESS_KEY
-    region: ""                                # 区域（Cloudflare R2 不需要填）
+    endpoint_url: "Cloudflare R2: https://dd1981a636622bd8108331a6289657d3.r2.cloudflarestorage.com"                  # 服务端点
+                                      # Cloudflare R2: https://<account_id>.r2.cloudflarestorage.com
+                                      # 阿里云 OSS: https://oss-cn-hangzhou.aliyuncs.com
+                                      # 腾讯云 COS: https://cos.ap-guangzhou.myqcloud.com
+    bucket_name: ""                   # 存储桶名称
+    access_key_id: ""                 # 访问密钥 ID
+    secret_access_key: ""             # 访问密钥
+    region: ""                        # 区域（可选，部分服务商需要）
 
   # 数据拉取配置
   pull:
